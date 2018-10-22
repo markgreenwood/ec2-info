@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb-base",
+  "root": true,
+  "parser": "babel-eslint",
+  "rules": {
+    "comma-dangle": 0,
+    "strict": 0,
+    "arrow-body-style": ["error", "as-needed"],
+    "no-prototype-builtins": 0
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  }
+}
